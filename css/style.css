@@ -1,0 +1,245 @@
+body {
+	font-family: "Trebuchet MS",Arial;
+	font-size: 12px;
+        background:#000 url(images/stripe.gif) repeat top left;
+	margin:0;
+	padding:0;
+	color: #ffffff;
+}
+
+a {
+	color: #AAFF00;;
+}
+
+a:hover {
+	color: #B9AA81;
+}
+
+
+#logo h1, #logo p {
+	float: left;
+	color: #AAFF00;
+}
+
+#logo h1 {
+	height: 88px;
+	padding: 20px 90px 0 0;
+	font-size: 4em;
+}
+
+#logo p {
+	margin: 0 0 0 -80px;
+	padding: 55px 0 0 0;
+	line-height: normal;
+	letter-spacing: -1px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+#header {
+	width: 950px;
+	height: 128px;
+	margin: 0 auto;
+}
+
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+/**navigation menu**/
+
+#menu {
+	width: 950px;
+	height: 60px;
+	margin: 50px auto;
+	background: #6AA2FD url(images/img04.gif);
+}
+
+#menu ul {
+	margin: 20 auto;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+	text-transform: uppercase;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	background: url(images/img15.gif) no-repeat right 100%;
+	padding: 18px 30px 09px 30px;
+	text-decoration: none;
+	font-family: "Trebuchet MS",Arial;
+	/**font-size: 1.5em;**/
+       	font-weight: bold;
+	color: #FFFFFF;
+        
+}
+
+#menu a:hover {
+	height: 31px;
+	background: url(images/img16.gif) repeat-x right 30%;
+	color: #000000;
+}
+
+#menu .current_page_item {
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 950px;
+        height: 650px;
+	margin: 0 auto;
+	/**padding: 30px 0;**/
+
+}
+
+/* Ad */
+#ads {
+	float: right;
+	width: 160px;
+	padding: 0 0 0 20px;
+}
+
+/* Content */
+#content {
+	float: left;
+	width: 750px;
+        height: 600px;
+	border-style: solid;
+}
+
+.allsteps h3 {
+ font-size: 2.5em;
+ color: #AAFF00;
+ margin: 0 0 0 -11px;
+}
+
+
+.allsteps d {
+  text-align: center;
+  margin-top : 10.5em;
+}
+/* Title */
+.title h2 {
+	font-size: 2.5em;
+	text-decoration: none;
+ 	color: #AAFF00;
+	margin: 0 0 0 -1px;
+
+}
+/**set schedule forms**/
+
+
+
+#signup_form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 360px;
+	font-size: 16px;
+	
+
+}
+
+#signup_form .heading {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #B9AA81;
+}
+
+#signup_form form {
+	
+	background-color: #B9AA81;
+	padding: 10px;
+
+	
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+
+}
+
+
+
+#signup_form form label {
+	font-weight: bold;
+	color: #11151E;
+}
+
+#signup_form form input[type=text],input[type=password] {
+	width: 316px;
+	font-weight: bold;
+	padding: 8px;
+	
+	
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+ul#navigation li {
+  float: right;
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+ul#logout li{
+  float: right;
+  display: inline;
+  margin: 0 0 0 15px;
+  font-size: 7px;
+}
+
+#signup_form form input[type=submit] {
+	display: block;
+	margin: auto;
+	width: 200px;
+	font-size: 18px;
+	background-color: #FFF;
+	border: 1px solid #BBB;
+
+}
+
+#signup_form form input[type=submit]:hover {
+	border-color: #000;
+}
+
+#signup_form .error {
+	font-size: 13px;
+	color: #690C07;
+	font-style: italic;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	padding: 30px 0;
+	background: url(images/img11.gif) no-repeat;
+}
+
+#footer p {
+	margin: 0 0 5px 0;
+	text-align: center;
+	line-height: normal;
+	font-size: .9em;
+}
+
+#footer a {
+	text-decoration: none;
+}
