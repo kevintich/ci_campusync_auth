@@ -1,10 +1,13 @@
 body {
-	font-family: "Trebuchet MS",Arial;
-	font-size: 12px;
+	/**font-family: "Trebuchet MS",Arial;
+	font-size: 12px;**/
         background:#000 url(images/stripe.gif) repeat top left;
 	margin:0;
 	padding:0;
 	color: #ffffff;
+	
+        font-size:70.5%; 
+        font-family:Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -54,7 +57,7 @@ input, textarea, select {
 #menu {
 	width: 950px;
 	height: 60px;
-	margin: 50px auto;
+	margin: 40px auto;
 	background: #6AA2FD url(images/img04.gif);
 }
 
@@ -73,7 +76,7 @@ input, textarea, select {
 	display: block;
 	float: left;
 	background: url(images/img15.gif) no-repeat right 100%;
-	padding: 18px 30px 09px 30px;
+	padding: 18px 30px 13px 40px;
 	text-decoration: none;
 	font-family: "Trebuchet MS",Arial;
 	/**font-size: 1.5em;**/
@@ -120,6 +123,11 @@ input, textarea, select {
 	border-style: solid;
 }
 
+#stepsform{
+  float :right;
+  margin: 80px 100px 10px 15px;
+
+}
 .allsteps h3 {
  font-size: 2.5em;
  color: #AAFF00;

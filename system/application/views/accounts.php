@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Home</title>
+	<title>Campusync</title>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css" type="text/css" media="all">
 </head>
 <body>
@@ -31,7 +31,6 @@
 	<ul>
         	<li><?php echo anchor('home','Your Schedule'); ?></li>
 		<li><?php echo anchor('schedule','Set-up schedule'); ?></li>
-		<li><?php echo anchor('help','Help'); ?></li>
 		<li><?php echo anchor('accounts','Account settings'); ?></li>
 	</ul>
 </div>

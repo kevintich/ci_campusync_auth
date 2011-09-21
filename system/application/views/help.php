@@ -31,7 +31,6 @@
 		<!--<li class="current_page_item"><a href="#">Your Schedule</a></li>-->
         	<li><?php echo anchor('home','Your Schedule'); ?></li>
 		<li><?php echo anchor('schedule','Set-up schedule'); ?></li>
-		<li><?php echo anchor('help','Help'); ?></li>
 		<li><?php echo anchor('accounts','Account settings'); ?></li>
 	</ul>
 </div>
