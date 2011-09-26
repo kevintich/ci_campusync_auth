@@ -65,6 +65,7 @@
 			.step span {
 				float: right;
 				font-weight: bold;
+				color: #AAFF00;;
 				padding-right: 0.8em;
 			}
 
@@ -122,13 +123,7 @@
 				<h2>Set Schedule</h2>
 			</div>
                         <div id="stepsform">
-			<h3>Example of a straight wizard</h3>
-			<ul>
-			<li>Straight wizard with three steps.</li>
-			<li>Validation plugin enabled for the email field on the second step.</li>
-			<li>Form plugin enabled and beforeSubmit and success callbacks are used.</li>
-			</ul>
-			<hr />
+						<hr />
 			<h5 id="status"></h5>
 			<form id="demoForm" method="post" action="json.html" class="bbq">
 				<div id="fieldWrapper">
@@ -162,14 +157,29 @@
 					<label for="retypePassword">Retype password</label><br />
 					<input class="input_field_12em" name="retypePassword" id="retypePassword" type="password" /><br />
 				</span>
+				<span id = "mydropdown" class = "step">
+					<span class="font_normal_07em_black">First Line of code</span><br />
+					<select id= "selectvals">
+						<option value = "1"> kevin </option>
+						<option value = "1"> Ng'eno </option>
+					<select/>
+				<br />				
+				</span>
 				</div>
 				<div id="demoNavigation"> 							
 					<input class="navigation_button" id="back" value="Back" type="reset" />
 					<input class="navigation_button" id="next" value="Next" type="submit" />
 				</div>
 			</form>
+
+
 			<hr />
-			
+                      
+ 
+                          <!--<label for="country">Institute: </label>
+                          <?php echo form_dropdown('inst_id', $institutes, 'zzz', 'id="institute"');?><br />-->
+ 
+	
 			<p id="data"></p>
 		</div>
 			<!--<div id = "allsteps">
@@ -207,7 +217,7 @@ echo form_dropdown('shirts', $options, 'large', $js);
                  </ul>
 <?php endif; ?>
 
-    <script type="text/javascript" src="<?= base_url();?>js/jquery-1.4.2.min.js"></script>		
+    <!--<script type="text/javascript" src="<?= base_url();?>js/jquery-1.4.2.min.js"></script>		
     <script type="text/javascript" src="<?= base_url();?>js/jquery.form.js"></script>
     <script type="text/javascript" src="<?= base_url();?>js/jquery.validate.js"></script>
     <script type="text/javascript" src="<?= base_url();?>js/bbq.js"></script>
@@ -229,7 +239,7 @@ echo form_dropdown('shirts', $options, 'large', $js);
 				 }
 				);
   		});
-    </script>
+    </script>-->
 	
 </body>
 </html>

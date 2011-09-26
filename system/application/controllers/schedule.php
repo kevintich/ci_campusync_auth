@@ -2,9 +2,8 @@
 class Schedule extends Controller {
 	public function __construct() {
 		parent::Controller();
-		$this->load->helper('form');
-
-		$this->load->model('Schedule_model');
+		$this->load->helper(array('form','url'));
+		$this->load->model('Schedule_model','',TRUE);
 	}
 
 	public function index() {
@@ -13,8 +12,9 @@ class Schedule extends Controller {
 	}
 	
 
-	public function getCountry(){
-
+	public function getInstitute(){
+           $data['institutes'] = $this->schedule_model->getInstitutes();
+           $this->load->view('set_up_schedule',$data);
 	}
 
 	public function displayInstitute(){
